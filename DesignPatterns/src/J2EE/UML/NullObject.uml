@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>J2EE.NullObject</OriginalElement>
+  <nodes>
+    <node x="-73.0" y="154.0">J2EE.NullObject.RealCustomer</node>
+    <node x="206.0" y="5.0">J2EE.NullObject.NullPatternLoader</node>
+    <node x="-143.5" y="8.0">J2EE.NullObject.AbstractCustomer</node>
+    <node x="-230.0" y="165.5">J2EE.NullObject.NullCustomer</node>
+    <node x="213.0" y="137.0">J2EE.NullObject.CustomerFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="J2EE.NullObject.RealCustomer" target="J2EE.NullObject.AbstractCustomer">
+      <point x="0.0" y="-48.0" />
+      <point x="31.5" y="129.0" />
+      <point x="-25.75" y="129.0" />
+      <point x="39.25" y="48.0" />
+    </edge>
+    <edge source="J2EE.NullObject.CustomerFactory" target="J2EE.NullObject.NullCustomer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.NullObject.CustomerFactory" target="J2EE.NullObject.RealCustomer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.NullObject.NullCustomer" target="J2EE.NullObject.AbstractCustomer">
+      <point x="0.0" y="-36.5" />
+      <point x="-161.5" y="129.0" />
+      <point x="-104.25" y="129.0" />
+      <point x="-39.25" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="116.0" y="128.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

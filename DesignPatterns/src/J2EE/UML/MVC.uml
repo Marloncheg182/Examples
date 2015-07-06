@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>J2EE.MVC</OriginalElement>
+  <nodes>
+    <node x="-211.0" y="143.0">J2EE.MVC.StudentView</node>
+    <node x="501.625" y="151.0">J2EE.MVC.MVCLoader</node>
+    <node x="93.625" y="-24.0">J2EE.MVC.StudentController</node>
+    <node x="159.25" y="384.0">J2EE.MVC.StudentModel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="J2EE.MVC.StudentController" target="J2EE.MVC.StudentModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.MVC.MVCLoader" target="J2EE.MVC.StudentView">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.MVC.MVCLoader" target="J2EE.MVC.StudentModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.MVC.StudentController" target="J2EE.MVC.StudentView">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.MVC.MVCLoader" target="J2EE.MVC.StudentController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="313.5" y="234.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

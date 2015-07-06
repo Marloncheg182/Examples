@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>J2EE.InterceptingFilterPattern</OriginalElement>
+  <nodes>
+    <node x="492.0" y="303.0">J2EE.InterceptingFilterPattern.DebugFilter</node>
+    <node x="403.0" y="202.0">J2EE.InterceptingFilterPattern.Filter</node>
+    <node x="-8.0" y="-8.0">J2EE.InterceptingFilterPattern.FilterManager</node>
+    <node x="28.0" y="344.0">J2EE.InterceptingFilterPattern.Target</node>
+    <node x="314.0" y="303.0">J2EE.InterceptingFilterPattern.AuthenticationFilter</node>
+    <node x="684.0" y="14.0">J2EE.InterceptingFilterPattern.InterceptingFilterLoader</node>
+    <node x="3.0" y="167.0">J2EE.InterceptingFilterPattern.FilterChain</node>
+    <node x="366.0" y="-45.0">J2EE.InterceptingFilterPattern.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="J2EE.InterceptingFilterPattern.InterceptingFilterLoader" target="J2EE.InterceptingFilterPattern.DebugFilter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.InterceptingFilterPattern.FilterChain" target="J2EE.InterceptingFilterPattern.Filter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.InterceptingFilterPattern.InterceptingFilterLoader" target="J2EE.InterceptingFilterPattern.Client">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.InterceptingFilterPattern.InterceptingFilterLoader" target="J2EE.InterceptingFilterPattern.Target">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.InterceptingFilterPattern.AuthenticationFilter" target="J2EE.InterceptingFilterPattern.Filter">
+      <point x="0.0" y="-25.5" />
+      <point x="393.0" y="278.0" />
+      <point x="442.5" y="278.0" />
+      <point x="-39.5" y="25.5" />
+    </edge>
+    <edge source="J2EE.InterceptingFilterPattern.Client" target="J2EE.InterceptingFilterPattern.FilterManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.InterceptingFilterPattern.DebugFilter" target="J2EE.InterceptingFilterPattern.Filter">
+      <point x="0.0" y="-25.5" />
+      <point x="571.0" y="278.0" />
+      <point x="521.5" y="278.0" />
+      <point x="39.5" y="25.5" />
+    </edge>
+    <edge source="J2EE.InterceptingFilterPattern.InterceptingFilterLoader" target="J2EE.InterceptingFilterPattern.FilterManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.InterceptingFilterPattern.InterceptingFilterLoader" target="J2EE.InterceptingFilterPattern.AuthenticationFilter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.InterceptingFilterPattern.FilterManager" target="J2EE.InterceptingFilterPattern.FilterChain">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.InterceptingFilterPattern.FilterChain" target="J2EE.InterceptingFilterPattern.Target">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="348.5" y="193.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

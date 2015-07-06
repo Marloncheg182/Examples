@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.Strategy.Strategy</OriginalElement>
+  <nodes>
+    <node x="457.0" y="-105.0">Behavioral.Strategy.Strategy.StrategyLoader</node>
+    <node x="43.0" y="80.0">Behavioral.Strategy.Strategy.OperationMultiply</node>
+    <node x="242.0" y="80.0">Behavioral.Strategy.Strategy.OperationSubstract</node>
+    <node x="43.0" y="-21.0">Behavioral.Strategy.Strategy.Strategy</node>
+    <node x="442.0" y="34.0">Behavioral.Strategy.Strategy.Context</node>
+    <node x="-156.0" y="80.0">Behavioral.Strategy.Strategy.OperationAdd</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.Strategy.Strategy.Context" target="Behavioral.Strategy.Strategy.Strategy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Strategy.Strategy.StrategyLoader" target="Behavioral.Strategy.Strategy.OperationSubstract">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Strategy.Strategy.OperationAdd" target="Behavioral.Strategy.Strategy.Strategy">
+      <point x="0.0" y="-25.5" />
+      <point x="-66.5" y="55.0" />
+      <point x="72.83333333333334" y="55.0" />
+      <point x="-59.66666666666666" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.Strategy.OperationMultiply" target="Behavioral.Strategy.Strategy.Strategy">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.Strategy.StrategyLoader" target="Behavioral.Strategy.Strategy.OperationMultiply">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Strategy.Strategy.StrategyLoader" target="Behavioral.Strategy.Strategy.Context">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Strategy.Strategy.StrategyLoader" target="Behavioral.Strategy.Strategy.OperationAdd">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Strategy.Strategy.OperationSubstract" target="Behavioral.Strategy.Strategy.Strategy">
+      <point x="0.0" y="-25.5" />
+      <point x="331.5" y="55.0" />
+      <point x="192.16666666666663" y="55.0" />
+      <point x="59.66666666666663" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="399.5" y="174.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

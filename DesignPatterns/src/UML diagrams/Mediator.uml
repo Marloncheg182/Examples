@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.Mediator</OriginalElement>
+  <nodes>
+    <node x="191.0" y="24.0">Behavioral.Mediator.ChatRoom</node>
+    <node x="-246.0" y="14.0">Behavioral.Mediator.MediatorLoader</node>
+    <node x="-15.0" y="6.0">Behavioral.Mediator.User</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.Mediator.MediatorLoader" target="Behavioral.Mediator.User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="83.0" y="54.5" />
+  <SelectedNodes>
+    <node>Behavioral.Mediator.ChatRoom</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

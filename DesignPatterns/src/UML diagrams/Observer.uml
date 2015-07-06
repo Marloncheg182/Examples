@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.Observer</OriginalElement>
+  <nodes>
+    <node x="0.0" y="145.0">Behavioral.Observer.WeatherData</node>
+    <node x="527.5" y="118.0">Behavioral.Observer.CurrentConditionsDisplay</node>
+    <node x="36.0" y="0.0">Behavioral.Observer.Subject</node>
+    <node x="639.0" y="17.0">Behavioral.Observer.Observer</node>
+    <node x="495.0" y="17.0">Behavioral.Observer.DisplayElement</node>
+    <node x="311.8571428571428" y="-154.9999999999999">Behavioral.Observer.WeatherStation</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.Observer.CurrentConditionsDisplay" target="Behavioral.Observer.Observer">
+      <point x="61.25" y="-81.5" />
+      <point x="711.25" y="93.0" />
+      <point x="743.0" y="93.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Observer.WeatherData" target="Behavioral.Observer.Subject">
+      <point x="0.0" y="-125.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="Behavioral.Observer.CurrentConditionsDisplay" target="Behavioral.Observer.Subject">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Observer.WeatherStation" target="Behavioral.Observer.WeatherData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Observer.WeatherStation" target="Behavioral.Observer.CurrentConditionsDisplay">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Observer.CurrentConditionsDisplay" target="Behavioral.Observer.DisplayElement">
+      <point x="-61.25" y="-81.5" />
+      <point x="588.75" y="93.0" />
+      <point x="557.0" y="93.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="368.42857142857133" y="218.71428571428567" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

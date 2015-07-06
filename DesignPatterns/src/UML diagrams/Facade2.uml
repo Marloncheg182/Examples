@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Structural.Facade.Facade</OriginalElement>
+  <nodes>
+    <node x="266.0" y="331.0">Structural.Facade.Facade.Rectangle</node>
+    <node x="133.0" y="230.0">Structural.Facade.Facade.Shape</node>
+    <node x="133.0" y="331.0">Structural.Facade.Facade.Circle</node>
+    <node x="0.0" y="331.0">Structural.Facade.Facade.Square</node>
+    <node x="569.0" y="-11.0">Structural.Facade.Facade.FacadeLoader</node>
+    <node x="529.0" y="164.0">Structural.Facade.Facade.ShapeMaker</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Structural.Facade.Facade.Rectangle" target="Structural.Facade.Facade.Shape">
+      <point x="0.0" y="-25.5" />
+      <point x="322.5" y="306.0" />
+      <point x="227.16666666666666" y="306.0" />
+      <point x="37.66666666666666" y="25.5" />
+    </edge>
+    <edge source="Structural.Facade.Facade.ShapeMaker" target="Structural.Facade.Facade.Shape">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.Facade.Square" target="Structural.Facade.Facade.Shape">
+      <point x="0.0" y="-25.5" />
+      <point x="56.5" y="306.0" />
+      <point x="151.83333333333334" y="306.0" />
+      <point x="-37.66666666666666" y="25.5" />
+    </edge>
+    <edge source="Structural.Facade.Facade.FacadeLoader" target="Structural.Facade.Facade.ShapeMaker">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.Facade.Circle" target="Structural.Facade.Facade.Shape">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="321.5" y="213.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

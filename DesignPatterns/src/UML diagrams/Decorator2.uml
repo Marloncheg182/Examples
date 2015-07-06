@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Structural.Decorator.Decorator</OriginalElement>
+  <nodes>
+    <node x="359.5" y="-46.0">Structural.Decorator.Decorator.Shape</node>
+    <node x="13.499999999999972" y="101.0">Structural.Decorator.Decorator.ShapeDecorator</node>
+    <node x="-141.0" y="-16.0">Structural.Decorator.Decorator.DecoratorLoader</node>
+    <node x="494.5" y="155.0">Structural.Decorator.Decorator.Rectangle</node>
+    <node x="295.5" y="156.0">Structural.Decorator.Decorator.Circle</node>
+    <node x="0.0" y="248.0">Structural.Decorator.Decorator.RedShapeDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Structural.Decorator.Decorator.DecoratorLoader" target="Structural.Decorator.Decorator.Circle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Decorator.Decorator.DecoratorLoader" target="Structural.Decorator.Decorator.RedShapeDecorator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Decorator.Decorator.DecoratorLoader" target="Structural.Decorator.Decorator.Rectangle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Decorator.Decorator.RedShapeDecorator" target="Structural.Decorator.Decorator.ShapeDecorator">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="Structural.Decorator.Decorator.ShapeDecorator" target="Structural.Decorator.Decorator.Shape">
+      <point x="0.0" y="-48.5" />
+      <point x="119.99999999999997" y="76.0" />
+      <point x="265.33333333333326" y="76.0" />
+      <point x="-37.666666666666686" y="25.5" />
+    </edge>
+    <edge source="Structural.Decorator.Decorator.Circle" target="Structural.Decorator.Decorator.Shape">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Structural.Decorator.Decorator.Rectangle" target="Structural.Decorator.Decorator.Shape">
+      <point x="0.0" y="-25.5" />
+      <point x="549.0" y="30.0" />
+      <point x="453.66666666666663" y="30.0" />
+      <point x="37.66666666666663" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="350.5" y="196.0" />
+  <SelectedNodes>
+    <node>Structural.Decorator.Decorator.RedShapeDecorator</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

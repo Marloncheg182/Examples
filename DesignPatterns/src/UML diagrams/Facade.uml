@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Structural.Facade</OriginalElement>
+  <nodes>
+    <node x="745.7142857142857" y="28.571428571428726">Structural.Facade.Screen</node>
+    <node x="740.0" y="-367.7142857142855">Structural.Facade.Projector</node>
+    <node x="-449.2857142857142" y="-9.714285714285666">Structural.Facade.Tuner</node>
+    <node x="238.14285714285722" y="-562.8571428571429">Structural.Facade.HomeTheaterTestDrive</node>
+    <node x="743.8571428571429" y="-144.85714285714272">Structural.Facade.TheaterLights</node>
+    <node x="-448.9999999999999" y="-369.99999999999994">Structural.Facade.Amplifier</node>
+    <node x="-100.0" y="-8.571428571428555">Structural.Facade.DvdPlayer</node>
+    <node x="746.2857142857144" y="180.8571428571429">Structural.Facade.PopcornPopper</node>
+    <node x="342.8571428571429" y="-6.857142857142833">Structural.Facade.CdPlayer</node>
+    <node x="186.71428571428578" y="-436.8571428571427">Structural.Facade.HomeTheaterFacade</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Structural.Facade.HomeTheaterFacade" target="Structural.Facade.TheaterLights">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterFacade" target="Structural.Facade.Tuner">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterTestDrive" target="Structural.Facade.Amplifier">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterFacade" target="Structural.Facade.Screen">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterTestDrive" target="Structural.Facade.Projector">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterFacade" target="Structural.Facade.Projector">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterFacade" target="Structural.Facade.DvdPlayer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.Amplifier" target="Structural.Facade.CdPlayer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterTestDrive" target="Structural.Facade.TheaterLights">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterFacade" target="Structural.Facade.PopcornPopper">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterTestDrive" target="Structural.Facade.CdPlayer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterTestDrive" target="Structural.Facade.Tuner">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterTestDrive" target="Structural.Facade.Screen">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterFacade" target="Structural.Facade.Amplifier">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.DvdPlayer" target="Structural.Facade.Amplifier">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterTestDrive" target="Structural.Facade.DvdPlayer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.CdPlayer" target="Structural.Facade.Amplifier">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.Projector" target="Structural.Facade.DvdPlayer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterTestDrive" target="Structural.Facade.HomeTheaterFacade">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.Amplifier" target="Structural.Facade.Tuner">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterTestDrive" target="Structural.Facade.PopcornPopper">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.Amplifier" target="Structural.Facade.DvdPlayer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.Tuner" target="Structural.Facade.Amplifier">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Facade.HomeTheaterFacade" target="Structural.Facade.CdPlayer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="346.42857142857133" y="-153.28571428571433" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

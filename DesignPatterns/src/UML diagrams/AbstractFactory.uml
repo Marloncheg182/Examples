@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Creational.AbstractFactory.AbstractFactory</OriginalElement>
+  <nodes>
+    <node x="319.0" y="338.0">Creational.AbstractFactory.AbstractFactory.ShapeFactory</node>
+    <node x="109.0" y="338.0">Creational.AbstractFactory.AbstractFactory.ColorFactory</node>
+    <node x="173.0" y="529.0">Creational.AbstractFactory.AbstractFactory.Blue</node>
+    <node x="53.0" y="529.0">Creational.AbstractFactory.AbstractFactory.Green</node>
+    <node x="215.5" y="215.0">Creational.AbstractFactory.AbstractFactory.AbstractFactory</node>
+    <node x="452.0" y="428.0">Creational.AbstractFactory.AbstractFactory.Shape</node>
+    <node x="53.0" y="428.0">Creational.AbstractFactory.AbstractFactory.Color</node>
+    <node x="452.0" y="529.0">Creational.AbstractFactory.AbstractFactory.Rectangle</node>
+    <node x="585.0" y="529.0">Creational.AbstractFactory.AbstractFactory.Circle</node>
+    <node x="458.0" y="220.0">Creational.AbstractFactory.AbstractFactory.FactoryProducer</node>
+    <node x="319.0" y="529.0">Creational.AbstractFactory.AbstractFactory.Square</node>
+    <node x="752.0" y="222.0">Creational.AbstractFactory.AbstractFactory.AbstractFactoryLoader</node>
+    <node x="-67.0" y="529.0">Creational.AbstractFactory.AbstractFactory.Red</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Creational.AbstractFactory.AbstractFactory.Red" target="Creational.AbstractFactory.AbstractFactory.Color">
+      <point x="0.0" y="-25.5" />
+      <point x="-17.0" y="504.0" />
+      <point x="69.66666666666663" y="504.0" />
+      <point x="-33.33333333333334" y="25.5" />
+    </edge>
+    <edge source="Creational.AbstractFactory.AbstractFactory.FactoryProducer" target="Creational.AbstractFactory.AbstractFactory.ColorFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.AbstractFactory.AbstractFactory.ShapeFactory" target="Creational.AbstractFactory.AbstractFactory.Square">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.AbstractFactory.AbstractFactory.ColorFactory" target="Creational.AbstractFactory.AbstractFactory.Red">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.AbstractFactory.AbstractFactory.ColorFactory" target="Creational.AbstractFactory.AbstractFactory.Blue">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.AbstractFactory.AbstractFactory.Circle" target="Creational.AbstractFactory.AbstractFactory.Shape">
+      <point x="0.0" y="-25.5" />
+      <point x="641.5" y="504.0" />
+      <point x="546.1666666666666" y="504.0" />
+      <point x="37.66666666666666" y="25.5" />
+    </edge>
+    <edge source="Creational.AbstractFactory.AbstractFactory.Green" target="Creational.AbstractFactory.AbstractFactory.Color">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Creational.AbstractFactory.AbstractFactory.ShapeFactory" target="Creational.AbstractFactory.AbstractFactory.Rectangle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.AbstractFactory.AbstractFactory.ColorFactory" target="Creational.AbstractFactory.AbstractFactory.Green">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.AbstractFactory.AbstractFactory.Square" target="Creational.AbstractFactory.AbstractFactory.Shape">
+      <point x="0.0" y="-25.5" />
+      <point x="375.5" y="504.0" />
+      <point x="470.83333333333337" y="504.0" />
+      <point x="-37.66666666666666" y="25.5" />
+    </edge>
+    <edge source="Creational.AbstractFactory.AbstractFactory.ShapeFactory" target="Creational.AbstractFactory.AbstractFactory.Circle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.AbstractFactory.AbstractFactory.ShapeFactory" target="Creational.AbstractFactory.AbstractFactory.AbstractFactory">
+      <point x="0.0" y="-36.5" />
+      <point x="417.0" y="313.0" />
+      <point x="358.0" y="313.0" />
+      <point x="47.5" y="36.5" />
+    </edge>
+    <edge source="Creational.AbstractFactory.AbstractFactory.Blue" target="Creational.AbstractFactory.AbstractFactory.Color">
+      <point x="0.0" y="-25.5" />
+      <point x="223.0" y="504.0" />
+      <point x="136.33333333333337" y="504.0" />
+      <point x="33.33333333333334" y="25.5" />
+    </edge>
+    <edge source="Creational.AbstractFactory.AbstractFactory.Rectangle" target="Creational.AbstractFactory.AbstractFactory.Shape">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Creational.AbstractFactory.AbstractFactory.ColorFactory" target="Creational.AbstractFactory.AbstractFactory.AbstractFactory">
+      <point x="0.0" y="-36.5" />
+      <point x="204.0" y="313.0" />
+      <point x="263.0" y="313.0" />
+      <point x="-47.5" y="36.5" />
+    </edge>
+    <edge source="Creational.AbstractFactory.AbstractFactory.FactoryProducer" target="Creational.AbstractFactory.AbstractFactory.ShapeFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="398.5" y="378.0" />
+  <SelectedNodes>
+    <node>Creational.AbstractFactory.AbstractFactory.AbstractFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

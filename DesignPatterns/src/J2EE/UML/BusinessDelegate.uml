@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>J2EE.BusinessDelegate</OriginalElement>
+  <nodes>
+    <node x="80.0" y="300.0">J2EE.BusinessDelegate.EJBService</node>
+    <node x="-98.0" y="300.0">J2EE.BusinessDelegate.JMSService</node>
+    <node x="294.0" y="219.0">J2EE.BusinessDelegate.BusinessDelegate</node>
+    <node x="600.0" y="222.0">J2EE.BusinessDelegate.Client</node>
+    <node x="-41.0" y="89.0">J2EE.BusinessDelegate.BusinessLookUp</node>
+    <node x="-9.0" y="199.0">J2EE.BusinessDelegate.BusinessService</node>
+    <node x="525.0" y="79.0">J2EE.BusinessDelegate.BusinessDelegateLoader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="J2EE.BusinessDelegate.EJBService" target="J2EE.BusinessDelegate.BusinessService">
+      <point x="0.0" y="-25.5" />
+      <point x="159.0" y="275.0" />
+      <point x="109.5" y="275.0" />
+      <point x="39.5" y="25.5" />
+    </edge>
+    <edge source="J2EE.BusinessDelegate.BusinessLookUp" target="J2EE.BusinessDelegate.JMSService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.BusinessDelegate.BusinessDelegateLoader" target="J2EE.BusinessDelegate.BusinessDelegate">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.BusinessDelegate.BusinessLookUp" target="J2EE.BusinessDelegate.EJBService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.BusinessDelegate.BusinessDelegateLoader" target="J2EE.BusinessDelegate.Client">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.BusinessDelegate.BusinessDelegate" target="J2EE.BusinessDelegate.BusinessService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.BusinessDelegate.BusinessDelegate" target="J2EE.BusinessDelegate.BusinessLookUp">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.BusinessDelegate.JMSService" target="J2EE.BusinessDelegate.BusinessService">
+      <point x="0.0" y="-25.5" />
+      <point x="-19.0" y="275.0" />
+      <point x="30.5" y="275.0" />
+      <point x="-39.5" y="25.5" />
+    </edge>
+    <edge source="J2EE.BusinessDelegate.Client" target="J2EE.BusinessDelegate.BusinessDelegate">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="337.5" y="250.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

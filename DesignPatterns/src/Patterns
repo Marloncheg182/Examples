@@ -1,0 +1,135 @@
+Patterns:
+1.(Behavioral)
+- Memento
+- Chain of Responsibility
+- Observer +
+- Command
+- State
+- Interpreter
+- Strategy +
+- Iterator
+- Template Method
+- Mediator
+- Visitor
+2.(Creation)
+- Abstract Factory +
+- Builder
+- Factory Method +
+- Prototype
+- Singleton +
+3.(Structural)
+- Adapter
+- Proxy
+- Bridge
+- Composite
+- Decorator +
+- Facade
+- Flyweight
+
+//Strategy
+Strategy pattern determines the family of algorithms, incapsulate each of them
+and provide their compatibility. He allows to modify the algorithms regardless
+from their usability on client side.
+
+//Observer
+Pattern Observer determines the relations "One-to-Many" between the objects in
+such a way, that in case of statement object changing, auto-notification and
+updating of all dependant objects will be activated.
+
+//Decorator
+Pattern Decorator equips an object dynamically with new opportunities, being
+a flexible alternative to subclassing in area of functional extending.
+
+//Factory Method
+Pattern Factory Method determines an interface of object creation, but gives
+to sub-classes an allow to choose the class of created exemplar.
+Consequently, Fabric Method delegates an operation of creation an exemplar
+to sub-classes.
+
+//Abstract Factory
+Pattern Abstract Factory provides an interface of creation families interrelated
+and correlated objects without pointing of concrete classes.
+
+//Singleton
+Pattern Singleton guaranties, that class have only one exemplar and provide the
+global point of access to this exemplar.
+
+//Command
+Pattern Command incapsulates a request in form of object, making possible the
+parameterization of clients objects with other requests, organization of queue and
+registration of requests, also a support of undo operations.
+
+//Adapter
+Pattern Adapter transforms an interface of class to another interface, on which the
+client is lot upon. Adapter provides the common work of classes, impossible in
+ordinary conditions from independence of interfaces.
+
+//Facade
+Pattern Facade gives an unification interface to group of sub-system's interfaces.
+Facade determines a high-level interface, simplifying your work with sub-system.
+
+//Template Method
+Pattern Template Method sets a skeleton of an algorithm in method (Template),
+remains and determines implementations of some steps of subclasses. The subclasses
+may override some parts of algorithm without changing of structure.
+
+//Iterator
+Pattern Iterator gives a consistent sort mechanism of elements in collection
+without uncover of her inner view.
+
+//Composite
+Pattern Composite merges objects in Tree structures for assignation of hierarchies
+"part-total"
+
+//State
+Pattern State controls the changing of object's statement in case of his inner
+statement changing. Externally it looks like , an object changes his class.
+
+//Proxy
+Pattern Proxy gives a surrogate object, controlling the access to another object.
+
+//Bridge
+Pattern Bridge separates an abstraction and realization, that's why they can change
+independently.
+
+//Flyweight
+Flyweight pattern is primarily used to reduce the number of objects created and to
+decrease memory footprint and increase performance. This type of design pattern comes
+under structural pattern as this pattern provides ways to decrease object count thus
+improving the object structure of application.
+
+//Builder
+Builder Pattern builds a complex object using simple objects and using a step by step approach.
+
+//Prototype
+Prototype pattern refers to creating duplicate object while keeping performance in mind.
+This type of design pattern comes under creational pattern as this pattern provides
+one of the best ways to create an object.
+
+//Chain Of Responsibility
+Pattern Chain Of Responsibility avoids of connection of request's sender with his addressee, gives
+an opportunity to handle this request to more then one object. Connects objects-addressees and
+transfers requests by chain, till this object won't handle it.
+
+//Interpreter
+Interpreter pattern provides a way to evaluate language grammar or expression.
+This type of pattern comes under behavioral pattern. This pattern involves implementing
+an expression interface which tells to interpret a particular context.
+This pattern is used in SQL parsing, symbol processing engine etc.
+
+//Mediator
+Mediator pattern is used to reduce communication complexity between multiple objects or classes.
+This pattern provides a mediator class which normally handles all the communications between
+different classes and supports easy maintenance of the code by loose coupling.
+Mediator pattern falls under behavioral pattern category.
+
+//Memento
+Memento pattern is used to restore state of an object to a previous state.
+Memento pattern falls under behavioral pattern category.
+
+//Visitor
+In Visitor pattern, we use a visitor class which changes the executing algorithm
+of an element class. By this way, execution algorithm of element can vary as and
+when visitor varies. This pattern comes under behavior pattern category.
+As per the pattern, element object has to accept the visitor object so that visitor
+object handles the operation on the element object.

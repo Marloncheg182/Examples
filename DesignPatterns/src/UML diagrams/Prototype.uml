@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Creational.Prototype</OriginalElement>
+  <nodes>
+    <node x="0.0" y="168.0">Creational.Prototype.Square</node>
+    <node x="121.5" y="0.0">Creational.Prototype.Shape</node>
+    <node x="547.0" y="-92.0">Creational.Prototype.PrototypeLoader</node>
+    <node x="481.0" y="21.0">Creational.Prototype.ShapeCache</node>
+    <node x="140.0" y="168.0">Creational.Prototype.Rectangle</node>
+    <node x="296.0" y="168.0">Creational.Prototype.Circle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Creational.Prototype.ShapeCache" target="Creational.Prototype.Circle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.Prototype.Rectangle" target="Creational.Prototype.Shape">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="Creational.Prototype.Circle" target="Creational.Prototype.Shape">
+      <point x="0.0" y="-37.0" />
+      <point x="353.0" y="143.0" />
+      <point x="265.66666666666663" y="143.0" />
+      <point x="57.66666666666666" y="59.0" />
+    </edge>
+    <edge source="Creational.Prototype.ShapeCache" target="Creational.Prototype.Square">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.Prototype.Square" target="Creational.Prototype.Shape">
+      <point x="0.0" y="-37.0" />
+      <point x="60.0" y="143.0" />
+      <point x="150.33333333333334" y="143.0" />
+      <point x="-57.66666666666666" y="59.0" />
+    </edge>
+    <edge source="Creational.Prototype.ShapeCache" target="Creational.Prototype.Rectangle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.Prototype.ShapeCache" target="Creational.Prototype.Shape">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="321.5" y="173.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

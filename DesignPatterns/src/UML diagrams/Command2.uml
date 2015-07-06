@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.Command.Command</OriginalElement>
+  <nodes>
+    <node x="308.0" y="-125.0">Behavioral.Command.Command.CommandLoader</node>
+    <node x="31.0" y="-155.0">Behavioral.Command.Command.Stock</node>
+    <node x="-20.0" y="117.0">Behavioral.Command.Command.SellStock</node>
+    <node x="-93.5" y="16.0">Behavioral.Command.Command.Order</node>
+    <node x="285.0" y="99.0">Behavioral.Command.Command.Broker</node>
+    <node x="-213.0" y="117.0">Behavioral.Command.Command.BuyStock</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.Command.Command.BuyStock" target="Behavioral.Command.Command.Order">
+      <point x="0.0" y="-48.5" />
+      <point x="-126.5" y="92.0" />
+      <point x="-61.75" y="92.0" />
+      <point x="-31.75" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Command.Command.BuyStock" target="Behavioral.Command.Command.Stock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Command.Command.CommandLoader" target="Behavioral.Command.Command.BuyStock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Command.Command.SellStock" target="Behavioral.Command.Command.Order">
+      <point x="0.0" y="-48.5" />
+      <point x="66.5" y="92.0" />
+      <point x="1.75" y="92.0" />
+      <point x="31.75" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Command.Command.SellStock" target="Behavioral.Command.Command.Stock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Command.Command.Broker" target="Behavioral.Command.Command.Order">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Command.Command.CommandLoader" target="Behavioral.Command.Command.Stock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Command.Command.CommandLoader" target="Behavioral.Command.Command.SellStock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Command.Command.CommandLoader" target="Behavioral.Command.Command.Broker">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="118.0" y="28.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

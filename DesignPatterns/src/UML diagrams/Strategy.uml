@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.Strategy</OriginalElement>
+  <nodes>
+    <node x="138.99999999999994" y="188.0">Behavioral.Strategy.Squeak</node>
+    <node x="806.877450980392" y="623.6869565217391">Behavioral.Strategy.MiniDuckSimulator</node>
+    <node x="45.75980392156862" y="376.0">Behavioral.Strategy.DecoyDuck</node>
+    <node x="860.9264705882352" y="188.0">Behavioral.Strategy.FlyWithWings</node>
+    <node x="807.1764705882352" y="376.0">Behavioral.Strategy.RedHeadDuck</node>
+    <node x="1105.9264705882354" y="188.0">Behavioral.Strategy.FlyRocketPowered</node>
+    <node x="682.720588235294" y="188.0">Behavioral.Strategy.Quack</node>
+    <node x="636.1764705882352" y="376.0">Behavioral.Strategy.MallardDuck</node>
+    <node x="288.30147058823525" y="0.0">Behavioral.Strategy.QuackBehavior</node>
+    <node x="985.9264705882352" y="188.0">Behavioral.Strategy.Fly</node>
+    <node x="0.0" y="188.0">Behavioral.Strategy.MuteQuack</node>
+    <node x="454.17647058823525" y="376.0">Behavioral.Strategy.ModelDuck</node>
+    <node x="421.17647058823525" y="121.0">Behavioral.Strategy.Duck</node>
+    <node x="236.75980392156856" y="376.0">Behavioral.Strategy.RubberDuck</node>
+    <node x="863.4264705882352" y="0.0">Behavioral.Strategy.FlyBehavior</node>
+    <node x="277.99999999999994" y="188.0">Behavioral.Strategy.FlyNoWay</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.Strategy.MallardDuck" target="Behavioral.Strategy.Quack">
+      <point x="0.0" y="-37.0" />
+      <point x="711.6764705882352" y="356.0" />
+      <point x="742.220588235294" y="356.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.RedHeadDuck" target="Behavioral.Strategy.Duck">
+      <point x="-53.0" y="-37.0" />
+      <point x="833.6764705882352" y="336.0" />
+      <point x="611.0764705882352" y="336.0" />
+      <point x="84.39999999999998" y="92.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.ModelDuck" target="Behavioral.Strategy.Duck">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.RubberDuck" target="Behavioral.Strategy.Duck">
+      <point x="49.66666666666666" y="-37.0" />
+      <point x="360.92647058823525" y="356.0" />
+      <point x="484.47647058823526" y="356.0" />
+      <point x="-42.19999999999999" y="92.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.RedHeadDuck" target="Behavioral.Strategy.Quack">
+      <point x="0.0" y="-37.0" />
+      <point x="886.6764705882352" y="326.0" />
+      <point x="781.8872549019607" y="326.0" />
+      <point x="39.66666666666666" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.RubberDuck" target="Behavioral.Strategy.FlyNoWay">
+      <point x="0.0" y="-37.0" />
+      <point x="311.25980392156856" y="336.0" />
+      <point x="327.99999999999994" y="336.0" />
+      <point x="7.105427357601002E-15" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.MuteQuack" target="Behavioral.Strategy.QuackBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="59.5" y="71.0" />
+      <point x="303.17647058823525" y="71.0" />
+      <point x="-44.625" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.RedHeadDuck" target="Behavioral.Strategy.FlyWithWings">
+      <point x="53.0" y="-37.0" />
+      <point x="26.25" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.Quack" target="Behavioral.Strategy.QuackBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="742.220588235294" y="71.0" />
+      <point x="392.42647058823525" y="71.0" />
+      <point x="44.625" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.MallardDuck" target="Behavioral.Strategy.FlyWithWings">
+      <point x="50.333333333333314" y="-37.0" />
+      <point x="762.0098039215686" y="356.0" />
+      <point x="887.1764705882352" y="356.0" />
+      <point x="-26.25" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.MiniDuckSimulator" target="Behavioral.Strategy.FlyRocketPowered">
+      <point x="38.25" y="-25.5" />
+      <point x="921.627450980392" y="475.0" />
+      <point x="1170.4264705882354" y="475.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.ModelDuck" target="Behavioral.Strategy.FlyNoWay">
+      <point x="-48.33333333333337" y="-37.0" />
+      <point x="478.3431372549019" y="336.0" />
+      <point x="361.33333333333326" y="336.0" />
+      <point x="33.33333333333334" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.RubberDuck" target="Behavioral.Strategy.Squeak">
+      <point x="-49.66666666666666" y="-37.0" />
+      <point x="261.5931372549019" y="326.0" />
+      <point x="198.49999999999994" y="326.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.MiniDuckSimulator" target="Behavioral.Strategy.ModelDuck">
+      <point x="-38.25" y="-25.5" />
+      <point x="845.127450980392" y="475.0" />
+      <point x="526.6764705882352" y="475.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="Behavioral.Strategy.Fly" target="Behavioral.Strategy.FlyBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="1035.9264705882351" y="101.0" />
+      <point x="933.4264705882352" y="101.0" />
+      <point x="20.0" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.Squeak" target="Behavioral.Strategy.QuackBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="198.49999999999994" y="81.0" />
+      <point x="332.92647058823525" y="81.0" />
+      <point x="-14.875" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.ModelDuck" target="Behavioral.Strategy.Quack">
+      <point x="48.33333333333337" y="-37.0" />
+      <point x="575.0098039215686" y="356.0" />
+      <point x="702.5539215686274" y="356.0" />
+      <point x="-39.66666666666666" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.Duck" target="Behavioral.Strategy.QuackBehavior">
+      <point x="-52.75" y="-92.5" />
+      <point x="473.92647058823525" y="81.0" />
+      <point x="362.67647058823525" y="81.0" />
+      <point x="14.875" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.FlyRocketPowered" target="Behavioral.Strategy.FlyBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="1170.4264705882354" y="91.0" />
+      <point x="953.4264705882352" y="91.0" />
+      <point x="40.0" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.Duck" target="Behavioral.Strategy.FlyBehavior">
+      <point x="52.75" y="-92.5" />
+      <point x="579.4264705882352" y="101.0" />
+      <point x="893.4264705882352" y="101.0" />
+      <point x="-20.0" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.FlyNoWay" target="Behavioral.Strategy.FlyBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="327.99999999999994" y="91.0" />
+      <point x="873.4264705882352" y="91.0" />
+      <point x="-40.0" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.DecoyDuck" target="Behavioral.Strategy.MuteQuack">
+      <point x="-48.0" y="-37.0" />
+      <point x="69.75980392156862" y="356.0" />
+      <point x="59.5" y="356.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.DecoyDuck" target="Behavioral.Strategy.FlyNoWay">
+      <point x="0.0" y="-37.0" />
+      <point x="117.75980392156862" y="336.0" />
+      <point x="294.66666666666663" y="336.0" />
+      <point x="-33.333333333333336" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.MallardDuck" target="Behavioral.Strategy.Duck">
+      <point x="-50.33333333333334" y="-37.0" />
+      <point x="661.3431372549019" y="346.0" />
+      <point x="568.8764705882352" y="346.0" />
+      <point x="42.19999999999999" y="92.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.FlyWithWings" target="Behavioral.Strategy.FlyBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Strategy.DecoyDuck" target="Behavioral.Strategy.Duck">
+      <point x="48.0" y="-37.0" />
+      <point x="165.75980392156862" y="346.0" />
+      <point x="442.27647058823527" y="346.0" />
+      <point x="-84.39999999999998" y="92.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6791338582677166" x="568.359420289855" y="344.1797101449275" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.Memento</OriginalElement>
+  <nodes>
+    <node x="-255.0" y="210.0">Behavioral.Memento.MementoLoader</node>
+    <node x="273.0" y="130.0">Behavioral.Memento.Memento</node>
+    <node x="162.0" y="265.0">Behavioral.Memento.CarTaker</node>
+    <node x="-47.0" y="121.0">Behavioral.Memento.Originator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.Memento.Originator" target="Behavioral.Memento.Memento">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Memento.CarTaker" target="Behavioral.Memento.Memento">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Memento.MementoLoader" target="Behavioral.Memento.Originator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Memento.MementoLoader" target="Behavioral.Memento.CarTaker">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="117.0" y="268.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

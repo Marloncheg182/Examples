@@ -1,0 +1,4 @@
+java\hibernateSpringExample\Main.class
+java\hibernateSpringExample\Student.class
+java\hibernateSpringExample\StudentDAO.class
+java\hibernateSpringExample\StudentHibernateDAO.class

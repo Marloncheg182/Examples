@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Structural.Flyweight</OriginalElement>
+  <nodes>
+    <node x="568.0" y="114.0">Structural.Flyweight.Square</node>
+    <node x="208.0" y="299.0">Structural.Flyweight.MainClass</node>
+    <node x="-186.0" y="-169.0">Structural.Flyweight.Picture</node>
+    <node x="484.5" y="-165.0">Structural.Flyweight.Primitive</node>
+    <node x="-47.0" y="253.0">Structural.Flyweight.Context</node>
+    <node x="406.0" y="125.0">Structural.Flyweight.Circle</node>
+    <node x="232.0" y="148.0">Structural.Flyweight.Point</node>
+    <node x="-201.0" y="-5.0">Structural.Flyweight.PrimitiveFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Structural.Flyweight.MainClass" target="Structural.Flyweight.Context">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Flyweight.Point" target="Structural.Flyweight.Primitive">
+      <point x="0.0" y="-25.5" />
+      <point x="309.0" y="84.0" />
+      <point x="505.75" y="84.0" />
+      <point x="-57.75" y="25.5" />
+    </edge>
+    <edge source="Structural.Flyweight.PrimitiveFactory" target="Structural.Flyweight.Circle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Flyweight.Square" target="Structural.Flyweight.Primitive">
+      <point x="0.0" y="-59.5" />
+      <point x="650.0" y="94.0" />
+      <point x="582.75" y="94.0" />
+      <point x="19.25" y="25.5" />
+    </edge>
+    <edge source="Structural.Flyweight.Circle" target="Structural.Flyweight.Primitive">
+      <point x="0.0" y="-48.5" />
+      <point x="477.0" y="94.0" />
+      <point x="544.25" y="94.0" />
+      <point x="-19.25" y="25.5" />
+    </edge>
+    <edge source="Structural.Flyweight.PrimitiveFactory" target="Structural.Flyweight.Point">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Flyweight.Picture" target="Structural.Flyweight.Primitive">
+      <point x="0.0" y="-48.5" />
+      <point x="78.5" y="-29.0" />
+      <point x="487.25" y="-122.0" />
+      <point x="57.75" y="25.5" />
+    </edge>
+    <edge source="Structural.Flyweight.PrimitiveFactory" target="Structural.Flyweight.Picture">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Flyweight.PrimitiveFactory" target="Structural.Flyweight.Square">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="334.5" y="93.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

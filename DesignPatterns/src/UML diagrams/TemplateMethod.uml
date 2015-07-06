@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.TemplateMethod</OriginalElement>
+  <nodes>
+    <node x="551.0" y="-167.0">Behavioral.TemplateMethod.Tea</node>
+    <node x="15.0" y="-168.0">Behavioral.TemplateMethod.Coffe</node>
+    <node x="103.5" y="304.0">Behavioral.TemplateMethod.TeaWithHook</node>
+    <node x="411.5" y="305.0">Behavioral.TemplateMethod.CoffeeWithHook</node>
+    <node x="210.0" y="-286.0">Behavioral.TemplateMethod.CaffeineBeverage</node>
+    <node x="367.0" y="94.0">Behavioral.TemplateMethod.CaffeineBeverageWithHook</node>
+    <node x="59.0" y="93.0">Behavioral.TemplateMethod.TeaBeverageWithHook</node>
+    <node x="271.0" y="479.0">Behavioral.TemplateMethod.BeverageTestDrive</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.TemplateMethod.BeverageTestDrive" target="Behavioral.TemplateMethod.CoffeeWithHook">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.TemplateMethod.BeverageTestDrive" target="Behavioral.TemplateMethod.TeaWithHook">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.TemplateMethod.TeaWithHook" target="Behavioral.TemplateMethod.TeaBeverageWithHook">
+      <point x="0.0" y="-58.5" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="Behavioral.TemplateMethod.Coffe" target="Behavioral.TemplateMethod.CaffeineBeverage">
+      <point x="0.0" y="-36.5" />
+      <point x="124.5" y="-209.0" />
+      <point x="236.5" y="-209.0" />
+      <point x="-60.5" y="69.5" />
+    </edge>
+    <edge source="Behavioral.TemplateMethod.Tea" target="Behavioral.TemplateMethod.CaffeineBeverage">
+      <point x="0.0" y="-36.5" />
+      <point x="578.5" y="-208.0" />
+      <point x="407.5" y="-206.0" />
+      <point x="60.5" y="69.5" />
+    </edge>
+    <edge source="Behavioral.TemplateMethod.CoffeeWithHook" target="Behavioral.TemplateMethod.CaffeineBeverageWithHook">
+      <point x="0.0" y="-58.5" />
+      <point x="0.0" y="80.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="360.0" y="246.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

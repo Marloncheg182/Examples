@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Structural.Composite.Composite</OriginalElement>
+  <nodes>
+    <node x="51.0" y="-93.0">Structural.Composite.Composite.CompositeLoader</node>
+    <node x="0.0" y="0.0">Structural.Composite.Composite.Employee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Structural.Composite.Composite.CompositeLoader" target="Structural.Composite.Composite.Employee">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="63.0" y="92.0" />
+  <SelectedNodes>
+    <node>Structural.Composite.Composite.CompositeLoader</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

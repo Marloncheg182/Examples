@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>J2EE.CompositeEntity</OriginalElement>
+  <nodes>
+    <node x="333.0" y="18.0">J2EE.CompositeEntity.CompositeEntity</node>
+    <node x="329.0" y="168.0">J2EE.CompositeEntity.CoarseGrainedObject</node>
+    <node x="-25.0" y="239.0">J2EE.CompositeEntity.CompositeEntityLoader</node>
+    <node x="-83.0" y="23.0">J2EE.CompositeEntity.Client</node>
+    <node x="525.0" y="353.0">J2EE.CompositeEntity.DependantObject2</node>
+    <node x="250.0" y="356.0">J2EE.CompositeEntity.DependantObject1</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="J2EE.CompositeEntity.CompositeEntity" target="J2EE.CompositeEntity.CoarseGrainedObject">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.CompositeEntity.CompositeEntityLoader" target="J2EE.CompositeEntity.Client">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.CompositeEntity.Client" target="J2EE.CompositeEntity.CompositeEntity">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.CompositeEntity.CoarseGrainedObject" target="J2EE.CompositeEntity.DependantObject2">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.CompositeEntity.CoarseGrainedObject" target="J2EE.CompositeEntity.DependantObject1">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="342.5" y="248.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

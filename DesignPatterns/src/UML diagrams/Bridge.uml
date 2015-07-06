@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Structural.Bridge</OriginalElement>
+  <nodes>
+    <node x="332.5" y="16.0">Structural.Bridge.DrawAPI</node>
+    <node x="443.0" y="225.0">Structural.Bridge.GreenCircle</node>
+    <node x="226.0" y="226.0">Structural.Bridge.RedCircle</node>
+    <node x="15.0" y="147.0">Structural.Bridge.Circle</node>
+    <node x="0.0" y="-9.0">Structural.Bridge.Shape</node>
+    <node x="-229.0" y="74.0">Structural.Bridge.BridgeLoader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Structural.Bridge.Shape" target="Structural.Bridge.DrawAPI">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Bridge.BridgeLoader" target="Structural.Bridge.Circle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Bridge.Circle" target="Structural.Bridge.Shape">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="Structural.Bridge.RedCircle" target="Structural.Bridge.DrawAPI">
+      <point x="0.0" y="-25.5" />
+      <point x="323.5" y="88.0" />
+      <point x="382.75" y="88.0" />
+      <point x="-49.25" y="25.5" />
+    </edge>
+    <edge source="Structural.Bridge.BridgeLoader" target="Structural.Bridge.GreenCircle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Bridge.BridgeLoader" target="Structural.Bridge.RedCircle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Bridge.GreenCircle" target="Structural.Bridge.DrawAPI">
+      <point x="0.0" y="-25.5" />
+      <point x="540.5" y="88.0" />
+      <point x="481.25" y="88.0" />
+      <point x="49.25" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="300.5" y="256.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

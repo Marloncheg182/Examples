@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>J2EE.ServiceLocator</OriginalElement>
+  <nodes>
+    <node x="363.0" y="297.0">J2EE.ServiceLocator.Service1</node>
+    <node x="279.5" y="173.0">J2EE.ServiceLocator.Service</node>
+    <node x="-29.0" y="12.0">J2EE.ServiceLocator.ServiceLocatorLoader</node>
+    <node x="196.0" y="297.0">J2EE.ServiceLocator.Service2</node>
+    <node x="-38.0" y="246.0">J2EE.ServiceLocator.InitialContext</node>
+    <node x="238.0" y="-13.0">J2EE.ServiceLocator.Cache</node>
+    <node x="-22.0" y="128.0">J2EE.ServiceLocator.ServiceLocator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="J2EE.ServiceLocator.ServiceLocator" target="J2EE.ServiceLocator.InitialContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.ServiceLocator.Cache" target="J2EE.ServiceLocator.Service">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.ServiceLocator.ServiceLocator" target="J2EE.ServiceLocator.Cache">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.ServiceLocator.InitialContext" target="J2EE.ServiceLocator.Service2">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.ServiceLocator.Service2" target="J2EE.ServiceLocator.Service">
+      <point x="0.0" y="-37.0" />
+      <point x="269.5" y="272.0" />
+      <point x="316.25" y="272.0" />
+      <point x="-36.75" y="37.0" />
+    </edge>
+    <edge source="J2EE.ServiceLocator.InitialContext" target="J2EE.ServiceLocator.Service1">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.ServiceLocator.Service1" target="J2EE.ServiceLocator.Service">
+      <point x="0.0" y="-37.0" />
+      <point x="436.5" y="272.0" />
+      <point x="389.75" y="272.0" />
+      <point x="36.75" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="344.0" y="213.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

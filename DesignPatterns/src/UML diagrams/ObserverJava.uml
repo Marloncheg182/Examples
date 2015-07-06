@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.Observer.ObserverJava</OriginalElement>
+  <nodes>
+    <node x="206.0" y="-122.0">java.util.Observer</node>
+    <node x="248.0" y="309.0">Behavioral.Observer.ObserverJava.SubjectMainProcess</node>
+    <node x="473.0" y="-118.0">Behavioral.Observer.ObserverJava.Display</node>
+    <node x="-177.0" y="138.0">Behavioral.Observer.ObserverJava.Subject</node>
+    <node x="283.0" y="96.0">Behavioral.Observer.ObserverJava.CurrentDisplay</node>
+    <node x="-249.0" y="-199.0">java.util.Observable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.Observer.ObserverJava.SubjectMainProcess" target="Behavioral.Observer.ObserverJava.CurrentDisplay">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Observer.ObserverJava.CurrentDisplay" target="Behavioral.Observer.ObserverJava.Display">
+      <point x="0.0" y="-81.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Observer.ObserverJava.SubjectMainProcess" target="Behavioral.Observer.ObserverJava.Subject">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.Observable" target="java.util.Observer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Observer.ObserverJava.Subject" target="java.util.Observable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Observer.ObserverJava.CurrentDisplay" target="java.util.Observer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Observer.ObserverJava.CurrentDisplay" target="java.util.Observable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="127.0" y="71.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

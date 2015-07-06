@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Creational.Builder</OriginalElement>
+  <nodes>
+    <node x="178.0" y="291.0">Creational.Builder.Coke</node>
+    <node x="84.0" y="168.0">Creational.Builder.ColdDrink</node>
+    <node x="816.0" y="294.0">Creational.Builder.VegBurger</node>
+    <node x="722.0" y="171.0">Creational.Builder.Burger</node>
+    <node x="364.0" y="147.0">Creational.Builder.Bottle</node>
+    <node x="472.5" y="-108.0">Creational.Builder.Item</node>
+    <node x="504.0" y="147.0">Creational.Builder.Wrapper</node>
+    <node x="13.0" y="291.0">Creational.Builder.Pepsi</node>
+    <node x="434.0" y="46.0">Creational.Builder.Packing</node>
+    <node x="651.0" y="294.0">Creational.Builder.ChickenBurger</node>
+    <node x="132.0" y="-122.0">Creational.Builder.Meal</node>
+    <node x="-130.0" y="-75.0">Creational.Builder.MealBuilder</node>
+    <node x="-108.0" y="-174.0">Creational.Builder.BuilderLoader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Creational.Builder.Burger" target="Creational.Builder.Item">
+      <point x="0.0" y="-36.5" />
+      <point x="806.0" y="146.0" />
+      <point x="680.25" y="85.0" />
+      <point x="41.25" y="47.5" />
+    </edge>
+    <edge source="Creational.Builder.MealBuilder" target="Creational.Builder.Meal">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.Builder.ColdDrink" target="Creational.Builder.Item">
+      <point x="0.0" y="-36.5" />
+      <point x="168.0" y="143.0" />
+      <point x="291.75" y="143.0" />
+      <point x="-41.25" y="47.5" />
+    </edge>
+    <edge source="Creational.Builder.Burger" target="Creational.Builder.Wrapper">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.Builder.ChickenBurger" target="Creational.Builder.Burger">
+      <point x="0.0" y="-36.5" />
+      <point x="723.5" y="269.0" />
+      <point x="764.0" y="269.0" />
+      <point x="-42.0" y="36.5" />
+    </edge>
+    <edge source="Creational.Builder.VegBurger" target="Creational.Builder.Burger">
+      <point x="0.0" y="-36.5" />
+      <point x="888.5" y="269.0" />
+      <point x="848.0" y="269.0" />
+      <point x="42.0" y="36.5" />
+    </edge>
+    <edge source="Creational.Builder.Pepsi" target="Creational.Builder.ColdDrink">
+      <point x="0.0" y="-36.5" />
+      <point x="85.5" y="266.0" />
+      <point x="126.0" y="266.0" />
+      <point x="-42.0" y="36.5" />
+    </edge>
+    <edge source="Creational.Builder.MealBuilder" target="Creational.Builder.Coke">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.Builder.Meal" target="Creational.Builder.Item">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.Builder.Bottle" target="Creational.Builder.Packing">
+      <point x="0.0" y="-25.5" />
+      <point x="424.0" y="122.0" />
+      <point x="464.0" y="122.0" />
+      <point x="-30.0" y="25.5" />
+    </edge>
+    <edge source="Creational.Builder.MealBuilder" target="Creational.Builder.ChickenBurger">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.Builder.Coke" target="Creational.Builder.ColdDrink">
+      <point x="0.0" y="-36.5" />
+      <point x="250.5" y="266.0" />
+      <point x="210.0" y="266.0" />
+      <point x="42.0" y="36.5" />
+    </edge>
+    <edge source="Creational.Builder.MealBuilder" target="Creational.Builder.VegBurger">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.Builder.MealBuilder" target="Creational.Builder.Pepsi">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.Builder.BuilderLoader" target="Creational.Builder.MealBuilder">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.Builder.Wrapper" target="Creational.Builder.Packing">
+      <point x="0.0" y="-25.5" />
+      <point x="564.0" y="122.0" />
+      <point x="524.0" y="122.0" />
+      <point x="30.0" y="25.5" />
+    </edge>
+    <edge source="Creational.Builder.ColdDrink" target="Creational.Builder.Bottle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="402.5" y="81.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

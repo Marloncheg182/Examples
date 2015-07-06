@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Structural.Composite.Example2</OriginalElement>
+  <nodes>
+    <node x="877.5357142857144" y="570.7857142857142">Structural.Composite.Example2.NullIterator</node>
+    <node x="1.4285714285714448" y="577.8571428571428">Structural.Composite.Example2.CompositeIterator</node>
+    <node x="5.0" y="301.0">Structural.Composite.Example2.Menu</node>
+    <node x="434.50000000000006" y="581.0">Structural.Composite.Example2.MenuTestDrive</node>
+    <node x="666.0" y="323.5">Structural.Composite.Example2.MenuItem</node>
+    <node x="347.00000000000006" y="0.0">Structural.Composite.Example2.MenuComponent</node>
+    <node x="387.00000000000006" y="356.5">Structural.Composite.Example2.Waitress</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Structural.Composite.Example2.Waitress" target="Structural.Composite.Example2.MenuComponent">
+      <point x="0.0" y="-59.5" />
+      <point x="0.0" y="125.5" />
+    </edge>
+    <edge source="Structural.Composite.Example2.MenuItem" target="Structural.Composite.Example2.NullIterator">
+      <point x="99.75" y="-92.5" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="Structural.Composite.Example2.Menu" target="Structural.Composite.Example2.MenuComponent">
+      <point x="90.5" y="-115.0" />
+      <point x="276.5" y="276.0" />
+      <point x="403.50000000000006" y="276.0" />
+      <point x="-113.0" y="125.5" />
+    </edge>
+    <edge source="Structural.Composite.Example2.MenuTestDrive" target="Structural.Composite.Example2.MenuItem">
+      <point x="54.66666666666663" y="-37.0" />
+      <point x="571.1666666666667" y="556.0" />
+      <point x="865.5" y="556.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="Structural.Composite.Example2.MenuTestDrive" target="Structural.Composite.Example2.Waitress">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="Structural.Composite.Example2.MenuTestDrive" target="Structural.Composite.Example2.Menu">
+      <point x="-54.66666666666663" y="-37.0" />
+      <point x="461.8333333333334" y="556.0" />
+      <point x="186.0" y="556.0" />
+      <point x="0.0" y="115.0" />
+    </edge>
+    <edge source="Structural.Composite.Example2.Menu" target="Structural.Composite.Example2.CompositeIterator">
+      <point x="-90.5" y="-115.0" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="Structural.Composite.Example2.MenuItem" target="Structural.Composite.Example2.MenuComponent">
+      <point x="-99.75" y="-92.5" />
+      <point x="765.75" y="276.0" />
+      <point x="629.5" y="276.0" />
+      <point x="113.0" y="125.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="683.5714285714284" y="382.4285714285714" />
+  <SelectedNodes>
+    <node>Structural.Composite.Example2.Waitress</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

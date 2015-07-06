@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.ChainOfResponsibility</OriginalElement>
+  <nodes>
+    <node x="371.0" y="235.0">Behavioral.ChainOfResponsibility.ErrorLogger</node>
+    <node x="-179.0" y="-4.0">Behavioral.ChainOfResponsibility.ChainLoader</node>
+    <node x="198.0" y="235.0">Behavioral.ChainOfResponsibility.FileLogger</node>
+    <node x="166.0" y="0.0">Behavioral.ChainOfResponsibility.AbstractLogger</node>
+    <node x="0.0" y="235.0">Behavioral.ChainOfResponsibility.ConsoleLogger</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.ChainOfResponsibility.FileLogger" target="Behavioral.ChainOfResponsibility.AbstractLogger">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="Behavioral.ChainOfResponsibility.ErrorLogger" target="Behavioral.ChainOfResponsibility.AbstractLogger">
+      <point x="0.0" y="-37.0" />
+      <point x="451.0" y="210.0" />
+      <point x="346.8333333333333" y="210.0" />
+      <point x="72.33333333333331" y="92.5" />
+    </edge>
+    <edge source="Behavioral.ChainOfResponsibility.ChainLoader" target="Behavioral.ChainOfResponsibility.ConsoleLogger">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.ChainOfResponsibility.ChainLoader" target="Behavioral.ChainOfResponsibility.FileLogger">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.ChainOfResponsibility.ChainLoader" target="Behavioral.ChainOfResponsibility.ErrorLogger">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.ChainOfResponsibility.ConsoleLogger" target="Behavioral.ChainOfResponsibility.AbstractLogger">
+      <point x="0.0" y="-37.0" />
+      <point x="89.0" y="210.0" />
+      <point x="202.16666666666669" y="210.0" />
+      <point x="-72.33333333333331" y="92.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="167.0" y="148.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>J2EE.TransferObject</OriginalElement>
+  <nodes>
+    <node x="-7.0" y="185.0">J2EE.TransferObject.StudentVO</node>
+    <node x="269.0" y="37.0">J2EE.TransferObject.TransferObjectLoader</node>
+    <node x="0.0" y="0.0">J2EE.TransferObject.StudentBO</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="J2EE.TransferObject.StudentBO" target="J2EE.TransferObject.StudentVO">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.TransferObject.TransferObjectLoader" target="J2EE.TransferObject.StudentBO">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="73.0" y="88.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

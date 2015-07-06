@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Behavioral.Iterator</OriginalElement>
+  <nodes>
+    <node x="212.75" y="295.0">Behavioral.Iterator.NameRepository.NameIterator</node>
+    <node x="-243.0" y="291.0">Behavioral.Iterator.IteratorLoader</node>
+    <node x="-7.0" y="106.0">Behavioral.Iterator.Container</node>
+    <node x="225.0" y="101.5">Behavioral.Iterator.Iterator</node>
+    <node x="-15.0" y="282.0">Behavioral.Iterator.NameRepository</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Behavioral.Iterator.IteratorLoader" target="Behavioral.Iterator.NameRepository">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Behavioral.Iterator.NameRepository.NameIterator" target="Behavioral.Iterator.NameRepository">
+      <point x="-34.5" y="-48.0" />
+      <point x="233.25" y="247.0" />
+      <point x="197.0" y="247.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="Behavioral.Iterator.NameRepository" target="Behavioral.Iterator.Container">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Behavioral.Iterator.NameRepository.NameIterator" target="Behavioral.Iterator.Iterator">
+      <point x="34.5" y="-48.0" />
+      <point x="311.25" y="254.0" />
+      <point x="310.5" y="250.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="Behavioral.Iterator.NameRepository" target="Behavioral.Iterator.NameRepository.NameIterator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="111.0" y="251.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

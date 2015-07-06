@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Structural.Flyweight.Flyweight</OriginalElement>
+  <nodes>
+    <node x="259.0" y="0.0">Structural.Flyweight.Flyweight.FlyweightLoader</node>
+    <node x="-75.5" y="49.0">Structural.Flyweight.Flyweight.Shape</node>
+    <node x="-126.0" y="150.0">Structural.Flyweight.Flyweight.Circle</node>
+    <node x="234.0" y="199.0">Structural.Flyweight.Flyweight.ShapeFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Structural.Flyweight.Flyweight.ShapeFactory" target="Structural.Flyweight.Flyweight.Shape">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Structural.Flyweight.Flyweight.Circle" target="Structural.Flyweight.Flyweight.Shape">
+      <point x="0.0" y="-82.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Structural.Flyweight.Flyweight.ShapeFactory" target="Structural.Flyweight.Flyweight.Circle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="156.0" y="171.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

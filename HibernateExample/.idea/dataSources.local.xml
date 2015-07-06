@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - newdb@127.0.0.1" uuid="a0ca2d94-c2ee-4c4d-a3a2-d18bff7e0ba6">
+      <secret-storage>memory</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>newdb.*</schema-pattern>
+    </data-source>
+  </component>
+</project>

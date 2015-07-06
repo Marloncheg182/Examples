@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>J2EE.FrontController</OriginalElement>
+  <nodes>
+    <node x="47.0" y="352.0">J2EE.FrontController.StudentView</node>
+    <node x="47.0" y="188.0">J2EE.FrontController.Dispatcher</node>
+    <node x="207.0" y="352.0">J2EE.FrontController.HomeView</node>
+    <node x="-166.0" y="43.0">J2EE.FrontController.FrontControllerLoader</node>
+    <node x="-271.0" y="180.0">J2EE.FrontController.FrontController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="J2EE.FrontController.FrontControllerLoader" target="J2EE.FrontController.FrontController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.FrontController.Dispatcher" target="J2EE.FrontController.HomeView">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.FrontController.FrontController" target="J2EE.FrontController.Dispatcher">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="J2EE.FrontController.Dispatcher" target="J2EE.FrontController.StudentView">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="50.0" y="226.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

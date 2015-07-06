@@ -1,0 +1,30 @@
+Hello my Friend
+This is my first tutorial file manager. And you can use it for simple operations with folders and files inside those folders.
+You should know the general conditions of using, if you want to avoid bad actions.
+So:
+
+First of all, you need to open your folder, for this action: type your full path name to folder and push the Enter button.
+After this operation you will receive a list of folders and files, if they are exist.
+Example:    C:\Program Files\
+
+Second operation will be used, if you want to copy file or folder. You need to input your path "from" , and path "to" completely . Then push Enter button.
+After this operation, your variable (file/dir) will be copied to "to" path.
+Example:    C:\Program Files\my-copy-example.txt
+            D:\my-copy-example.txt
+
+Third operation will be used, if you want to move file or folder. You should input full path of you file/folder , and full path of folder, which will be used like a new "home" , for your element. Then push Enter button.
+After this operation, your variable will be moved to chosen directory.
+Example:    C:\Program Files\my-move-example.txt
+            D:\my-move-example.txt
+
+Fourth operation will be used, if you wanna delete file or folder from your path. Ypu should input a full path to file/folder, and push the Enter button.
+After this operation, your variables will be erased forever.
+Example:    D:\my-move-example.txt
+
+
+
+Thank`s for testing:
+
+
+P.S. You can find all source codes in folder "Source".
+

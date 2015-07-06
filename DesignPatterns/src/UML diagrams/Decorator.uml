@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Structural.Decorator</OriginalElement>
+  <nodes>
+    <node x="-292.0" y="60.00000000000006">Structural.Decorator.HouseBlend</node>
+    <node x="485.5" y="194.00000000000006">Structural.Decorator.Soy</node>
+    <node x="25.0" y="60.00000000000006">Structural.Decorator.Decaf</node>
+    <node x="235.0" y="-83.99999999999994">Structural.Decorator.Beverage</node>
+    <node x="634.5" y="71.50000000000006">Structural.Decorator.CondimentDecorator</node>
+    <node x="949.5" y="194.00000000000006">Structural.Decorator.Whip</node>
+    <node x="253.5" y="194.00000000000006">Structural.Decorator.Mocha</node>
+    <node x="717.5" y="194.00000000000006">Structural.Decorator.Milk</node>
+    <node x="-124.0" y="60.00000000000006">Structural.Decorator.Espresso</node>
+    <node x="159.0" y="60.00000000000006">Structural.Decorator.DarkRoast</node>
+    <node x="216.28947368421063" y="568.0">Structural.Decorator.StarBucksCoffe</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Structural.Decorator.Soy" target="Structural.Decorator.Beverage">
+      <point x="-53.0" y="-60.0" />
+      <point x="538.5" y="154.00000000000006" />
+      <point x="558.875" y="154.00000000000006" />
+      <point x="558.875" y="40.00000000000006" />
+      <point x="322.3888888888889" y="40.00000000000006" />
+      <point x="15.888888888888914" y="37.0" />
+    </edge>
+    <edge source="Structural.Decorator.Mocha" target="Structural.Decorator.Beverage">
+      <point x="-53.0" y="-60.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="Structural.Decorator.StarBucksCoffe" target="Structural.Decorator.Espresso">
+      <point x="-47.8125" y="-25.5" />
+      <point x="244.97697368421063" y="354.00000000000006" />
+      <point x="-59.5" y="354.00000000000006" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="Structural.Decorator.Espresso" target="Structural.Decorator.Beverage">
+      <point x="0.0" y="-37.0" />
+      <point x="-59.5" y="20.000000000000057" />
+      <point x="258.83333333333337" y="20.000000000000057" />
+      <point x="-47.66666666666663" y="37.0" />
+    </edge>
+    <edge source="Structural.Decorator.StarBucksCoffe" target="Structural.Decorator.Decaf">
+      <point x="-28.6875" y="-25.5" />
+      <point x="264.10197368421063" y="344.00000000000006" />
+      <point x="82.0" y="344.00000000000006" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="Structural.Decorator.Decaf" target="Structural.Decorator.Beverage">
+      <point x="0.0" y="-37.0" />
+      <point x="82.0" y="30.000000000000057" />
+      <point x="274.7222222222222" y="30.000000000000057" />
+      <point x="-31.77777777777783" y="37.0" />
+    </edge>
+    <edge source="Structural.Decorator.Whip" target="Structural.Decorator.CondimentDecorator">
+      <point x="-53.0" y="-60.0" />
+      <point x="1002.5" y="164.00000000000006" />
+      <point x="762.25" y="164.00000000000006" />
+      <point x="54.75" y="25.5" />
+    </edge>
+    <edge source="Structural.Decorator.Whip" target="Structural.Decorator.Beverage">
+      <point x="53.0" y="-60.0" />
+      <point x="1108.5" y="10.000000000000057" />
+      <point x="370.05555555555554" y="10.000000000000057" />
+      <point x="63.55555555555554" y="37.0" />
+    </edge>
+    <edge source="Structural.Decorator.DarkRoast" target="Structural.Decorator.Beverage">
+      <point x="0.0" y="-37.0" />
+      <point x="227.5" y="40.00000000000006" />
+      <point x="290.6111111111111" y="40.00000000000006" />
+      <point x="-15.888888888888914" y="37.0" />
+    </edge>
+    <edge source="Structural.Decorator.StarBucksCoffe" target="Structural.Decorator.Mocha">
+      <point x="9.5625" y="-25.5" />
+      <point x="302.35197368421063" y="334.00000000000006" />
+      <point x="359.5" y="334.00000000000006" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="Structural.Decorator.Soy" target="Structural.Decorator.CondimentDecorator">
+      <point x="53.0" y="-60.0" />
+      <point x="644.5" y="174.00000000000006" />
+      <point x="689.25" y="174.00000000000006" />
+      <point x="-18.25" y="25.5" />
+    </edge>
+    <edge source="Structural.Decorator.StarBucksCoffe" target="Structural.Decorator.HouseBlend">
+      <point x="-66.9375" y="-25.5" />
+      <point x="225.85197368421063" y="364.00000000000006" />
+      <point x="-218.0" y="364.00000000000006" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="Structural.Decorator.Milk" target="Structural.Decorator.Beverage">
+      <point x="53.0" y="-60.0" />
+      <point x="876.5" y="174.00000000000006" />
+      <point x="856.125" y="174.00000000000006" />
+      <point x="856.125" y="20.000000000000057" />
+      <point x="354.16666666666663" y="20.000000000000057" />
+      <point x="47.66666666666663" y="37.0" />
+    </edge>
+    <edge source="Structural.Decorator.CondimentDecorator" target="Structural.Decorator.Beverage">
+      <point x="0.0" y="-25.5" />
+      <point x="707.5" y="30.000000000000057" />
+      <point x="338.2777777777777" y="30.000000000000057" />
+      <point x="31.777777777777715" y="37.0" />
+    </edge>
+    <edge source="Structural.Decorator.StarBucksCoffe" target="Structural.Decorator.DarkRoast">
+      <point x="-9.5625" y="-25.5" />
+      <point x="283.22697368421063" y="334.00000000000006" />
+      <point x="227.5" y="334.00000000000006" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="Structural.Decorator.StarBucksCoffe" target="Structural.Decorator.Whip">
+      <point x="66.9375" y="-25.5" />
+      <point x="359.72697368421063" y="364.00000000000006" />
+      <point x="1055.5" y="364.00000000000006" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="Structural.Decorator.Milk" target="Structural.Decorator.CondimentDecorator">
+      <point x="-53.0" y="-60.0" />
+      <point x="770.5" y="174.00000000000006" />
+      <point x="725.75" y="174.00000000000006" />
+      <point x="18.25" y="25.5" />
+    </edge>
+    <edge source="Structural.Decorator.StarBucksCoffe" target="Structural.Decorator.Soy">
+      <point x="28.6875" y="-25.5" />
+      <point x="321.47697368421063" y="344.00000000000006" />
+      <point x="591.5" y="344.00000000000006" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="Structural.Decorator.StarBucksCoffe" target="Structural.Decorator.Milk">
+      <point x="47.8125" y="-25.5" />
+      <point x="340.60197368421063" y="354.00000000000006" />
+      <point x="823.5" y="354.00000000000006" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="Structural.Decorator.HouseBlend" target="Structural.Decorator.Beverage">
+      <point x="0.0" y="-37.0" />
+      <point x="-218.0" y="10.000000000000057" />
+      <point x="242.94444444444446" y="10.000000000000057" />
+      <point x="-63.55555555555554" y="37.0" />
+    </edge>
+    <edge source="Structural.Decorator.Mocha" target="Structural.Decorator.CondimentDecorator">
+      <point x="53.0" y="-60.0" />
+      <point x="412.5" y="164.00000000000006" />
+      <point x="652.75" y="164.00000000000006" />
+      <point x="-54.75" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="312.6666666666665" y="251.33333333333326" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

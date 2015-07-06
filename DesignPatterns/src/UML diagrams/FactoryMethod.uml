@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Creational.FactoryMethod.Factory</OriginalElement>
+  <nodes>
+    <node x="520.0" y="119.0">Creational.FactoryMethod.Factory.ShapeFactory</node>
+    <node x="531.0" y="332.0">Creational.FactoryMethod.Factory.FactoryPatternLoader</node>
+    <node x="21.0" y="145.0">Creational.FactoryMethod.Factory.Shape</node>
+    <node x="-112.0" y="246.0">Creational.FactoryMethod.Factory.Rectangle</node>
+    <node x="509.5" y="-29.0">Creational.FactoryMethod.Factory.Factory</node>
+    <node x="21.0" y="246.0">Creational.FactoryMethod.Factory.Circle</node>
+    <node x="154.0" y="246.0">Creational.FactoryMethod.Factory.Square</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Creational.FactoryMethod.Factory.FactoryPatternLoader" target="Creational.FactoryMethod.Factory.ShapeFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.FactoryMethod.Factory.Rectangle" target="Creational.FactoryMethod.Factory.Shape">
+      <point x="0.0" y="-25.5" />
+      <point x="-55.5" y="221.0" />
+      <point x="39.83333333333334" y="221.0" />
+      <point x="-37.66666666666666" y="25.5" />
+    </edge>
+    <edge source="Creational.FactoryMethod.Factory.ShapeFactory" target="Creational.FactoryMethod.Factory.Factory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.FactoryMethod.Factory.Square" target="Creational.FactoryMethod.Factory.Shape">
+      <point x="0.0" y="-25.5" />
+      <point x="210.5" y="221.0" />
+      <point x="115.16666666666666" y="221.0" />
+      <point x="37.66666666666666" y="25.5" />
+    </edge>
+    <edge source="Creational.FactoryMethod.Factory.ShapeFactory" target="Creational.FactoryMethod.Factory.Rectangle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.FactoryMethod.Factory.ShapeFactory" target="Creational.FactoryMethod.Factory.Square">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.FactoryMethod.Factory.ShapeFactory" target="Creational.FactoryMethod.Factory.Circle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Creational.FactoryMethod.Factory.Circle" target="Creational.FactoryMethod.Factory.Shape">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="322.0" y="141.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
