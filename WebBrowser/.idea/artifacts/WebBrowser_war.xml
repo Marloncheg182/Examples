@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebBrowser:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="browserapp-1.0-SNAPSHOT.jar" />
+  </artifact>
+</component>

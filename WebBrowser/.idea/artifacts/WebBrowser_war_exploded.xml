@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebBrowser:war exploded">
+    <output-path>$PROJECT_DIR$/target/browserapp-1.0-SNAPSHOT</output-path>
+    <root id="root" />
+  </artifact>
+</component>
