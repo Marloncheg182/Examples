@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="StrutHibernateIntegration:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="struts-hibernate-integration.war">
+      <element id="artifact" artifact-name="StrutHibernateIntegration:war exploded" />
+    </root>
+  </artifact>
+</component>

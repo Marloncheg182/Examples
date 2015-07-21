@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd ">
+
+    <portlet>
+        <description>Registration</description>
+        <portlet-name>Registration</portlet-name>
+        <portlet-class>org.apache.struts2.portlet.dispatcher.Jsr286Dispatcher</portlet-class>
+
+        <init-param>
+            <name>actionPackages</name>
+            <value>action.Registration</value>
+        </init-param>
+
+        <init-param>
+            <name>viewNamespace</name>
+            <value>/user</value>
+        </init-param>
+
+        <init-param>
+            <name>defaultViewAction</name>
+            <value>index</value>
+        </init-param>
+
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>view</portlet-mode>
+        </supports>
+        <supported-locale>en</supported-locale>
+
+        <portlet-info>
+            <title>Register User</title>
+            <short-title>Register User</short-title>
+            <keywords>User, Registration</keywords>
+        </portlet-info>
+    </portlet>
+</portlet-app>
