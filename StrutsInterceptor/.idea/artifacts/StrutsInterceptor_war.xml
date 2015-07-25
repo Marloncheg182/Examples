@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="StrutsInterceptor:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="StrutsExampleInterceptor-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="StrutsInterceptor:war exploded" />
+    </root>
+  </artifact>
+</component>

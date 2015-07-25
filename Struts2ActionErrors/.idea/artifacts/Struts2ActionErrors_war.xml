@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Struts2ActionErrors:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Struts2ActionErrors-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Struts2ActionErrors:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Struts2ControlTags:war">
+    <output-path>$PROJECT_DIR$/Struts2ControlTags/target</output-path>
+    <root id="archive" name="struts-control-tags-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Struts2ControlTags:war exploded" />
+    </root>
+  </artifact>
+</component>

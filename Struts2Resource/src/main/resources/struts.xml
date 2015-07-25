@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+                "http://struts.apache.org/dtds/struts-2.3.dtd">
+        <struts>
+
+    <constant name="struts.convention.result.path" value="/"></constant>
+    <constant name="struts.custom.i18n.resources" value="global"></constant>
+    <package name="user" namespace="/User" extends="struts-default">
+        <action name="home" class="action.WelcomeActions">
+            <result name="success">WEB-INF/pages/home.jsp</result>
+        </action>
+
+        <action name="welcome">
+            <interceptor-ref name="defaultStack">
+                <param name="i18n.parameterName">appLocale</param>
+            </interceptor-ref>
+            <result>WEB-INF/pages/welcome.jsp</result>
+        </action>
+    </package>
+</struts>
