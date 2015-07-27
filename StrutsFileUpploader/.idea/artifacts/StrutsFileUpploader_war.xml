@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="StrutsFileUpploader:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="struts-uploader-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="StrutsFileUpploader:war exploded" />
+    </root>
+  </artifact>
+</component>
