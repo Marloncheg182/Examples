@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:emails="http://www.myexample.ua/email" targetNamespace="http://www.myexample.ua/user" version="1.0">
+
+  <xs:import namespace="http://www.myexample.ua/email" schemaLocation="email.xsd"/>
+
+  <xs:complexType name="user">
+    <xs:annotation>
+      <xs:documentation><![CDATA[Created by Dell on 7/27/2015.]]></xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="email" type="emails:email">
+        <xs:annotation>
+          <xs:documentation/>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="name" type="xs:string">
+        <xs:annotation>
+          <xs:documentation/>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="status" type="xs:string">
+        <xs:annotation>
+          <xs:documentation/>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:int" use="required">
+      <xs:annotation>
+        <xs:documentation/>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+</xs:schema>

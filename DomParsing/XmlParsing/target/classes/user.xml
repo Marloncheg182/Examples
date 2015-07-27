@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Users>
+    <User>
+        <name>Oleg</name>
+        <age>25</age>
+        <role>java Developer</role>
+        <gender>Male</gender>
+    </User>
+    <User>
+        <name>Vitali</name>
+        <age>31</age>
+        <role>Android Developer</role>
+        <gender>Male</gender>
+    </User>
+    <User>
+        <name>Mari</name>
+        <age>30</age>
+        <role>Web Designer</role>
+        <gender>Female</gender>
+    </User>
+</Users>

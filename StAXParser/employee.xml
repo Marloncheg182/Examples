@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Employee id="1">
+	<name>
+		Oleg
+	</name>
+	<age>
+		25
+	</age>
+	<gender>
+		Male
+	</gender>
+	<role>
+		Java Developer
+	</role>
+</Employee>
