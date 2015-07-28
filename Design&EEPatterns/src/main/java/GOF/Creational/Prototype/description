@@ -1,0 +1,3 @@
+Prototype design pattern mandates that the Object which you are copying should provide the copying feature.
+It should not be done by any other class. However whether to use shallow or deep copy of the Object properties depends on
+the requirements and its a design decision.

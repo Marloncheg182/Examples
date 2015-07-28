@@ -1,0 +1,6 @@
+Use sharing to support large numbers of fine-grained objects efficiently
+
+The number of Objects to be created by application should be huge.
+The object creation is heavy on memory and it can be time consuming too.
+The object properties can be divided into intrinsic and extrinsic properties,
+extrinsic properties of an Object should be defined by the client program.

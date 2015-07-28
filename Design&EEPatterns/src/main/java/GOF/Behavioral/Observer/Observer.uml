@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>GOF.Behavioral.Observer</OriginalElement>
+  <nodes>
+    <node x="-77.5" y="-96.0">GOF.Behavioral.Observer.Observer</node>
+    <node x="106.0" y="-193.0">GOF.Behavioral.Observer.Run</node>
+    <node x="260.0" y="119.0">GOF.Behavioral.Observer.MySubject</node>
+    <node x="290.0" y="-102.0">GOF.Behavioral.Observer.Subject</node>
+    <node x="-94.0" y="114.0">GOF.Behavioral.Observer.Subscriber</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GOF.Behavioral.Observer.Subscriber" target="GOF.Behavioral.Observer.Observer">
+      <point x="0.0" y="-60.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Observer.MySubject" target="GOF.Behavioral.Observer.Subject">
+      <point x="0.0" y="-125.5" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="GOF.Behavioral.Observer.Run" target="GOF.Behavioral.Observer.MySubject">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Observer.MySubject" target="GOF.Behavioral.Observer.Observer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Observer.Subscriber" target="GOF.Behavioral.Observer.Subject">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Observer.Run" target="GOF.Behavioral.Observer.Subscriber">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="205.0" y="51.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

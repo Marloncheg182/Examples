@@ -1,0 +1,8 @@
+#Benefits of Dependency Injection
+-Separation of Concerns
+-Boilerplate Code reduction in application classes because all work to initialize dependencies is handled by the injector component
+-Configurable components makes application easily extendable
+-Unit testing is easy with mock objects
+#Disadvantages of Dependency Injection
+-If overused, it can lead to maintenance issues because effect of changes are known at runtime.
+-Dependency injection hides the service class dependencies that can lead to runtime errors that would have been caught at compile time.

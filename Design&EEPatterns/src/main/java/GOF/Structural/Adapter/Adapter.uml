@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>GOF.Structural.Adapter</OriginalElement>
+  <nodes>
+    <node x="-240.0" y="-12.0">GOF.Structural.Adapter.Run</node>
+    <node x="337.0" y="22.5">GOF.Structural.Adapter.Switch</node>
+    <node x="258.0" y="161.5">GOF.Structural.Adapter.AdapterClassImpl</node>
+    <node x="44.0" y="0.0">GOF.Structural.Adapter.Adapter</node>
+    <node x="192.0" y="-174.0">GOF.Structural.Adapter.UsbConnector</node>
+    <node x="0.0" y="146.0">GOF.Structural.Adapter.ObjectAdapterImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GOF.Structural.Adapter.Run" target="GOF.Structural.Adapter.AdapterClassImpl">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Adapter.AdapterClassImpl" target="GOF.Structural.Adapter.Switch">
+      <point x="68.5" y="-59.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="GOF.Structural.Adapter.AdapterClassImpl" target="GOF.Structural.Adapter.UsbConnector">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Adapter.AdapterClassImpl" target="GOF.Structural.Adapter.Adapter">
+      <point x="-68.5" y="-59.0" />
+      <point x="303.5" y="121.0" />
+      <point x="234.5" y="121.0" />
+      <point x="63.5" y="48.0" />
+    </edge>
+    <edge source="GOF.Structural.Adapter.ObjectAdapterImpl" target="GOF.Structural.Adapter.Adapter">
+      <point x="0.0" y="-70.5" />
+      <point x="-63.5" y="48.0" />
+    </edge>
+    <edge source="GOF.Structural.Adapter.ObjectAdapterImpl" target="GOF.Structural.Adapter.UsbConnector">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Adapter.ObjectAdapterImpl" target="GOF.Structural.Adapter.Switch">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Adapter.Switch" target="GOF.Structural.Adapter.UsbConnector">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Adapter.Run" target="GOF.Structural.Adapter.ObjectAdapterImpl">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="141.0" y="48.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

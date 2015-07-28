@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>GOF.Behavioral.Interpreter</OriginalElement>
+  <nodes>
+    <node x="271.0" y="121.0">GOF.Behavioral.Interpreter.IntToHexExpression</node>
+    <node x="103.0" y="121.0">GOF.Behavioral.Interpreter.IntToBinaryExpression</node>
+    <node x="221.0" y="-118.0">GOF.Behavioral.Interpreter.InterpreterContext</node>
+    <node x="-246.0" y="-108.0">GOF.Behavioral.Interpreter.Run</node>
+    <node x="139.75" y="20.0">GOF.Behavioral.Interpreter.Expression</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GOF.Behavioral.Interpreter.IntToBinaryExpression" target="GOF.Behavioral.Interpreter.Expression">
+      <point x="0.0" y="-48.5" />
+      <point x="177.0" y="96.0" />
+      <point x="198.75" y="96.0" />
+      <point x="-59.0" y="25.5" />
+    </edge>
+    <edge source="GOF.Behavioral.Interpreter.Run" target="GOF.Behavioral.Interpreter.InterpreterContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Interpreter.IntToHexExpression" target="GOF.Behavioral.Interpreter.Expression">
+      <point x="0.0" y="-48.5" />
+      <point x="338.5" y="96.0" />
+      <point x="316.75" y="96.0" />
+      <point x="59.0" y="25.5" />
+    </edge>
+    <edge source="GOF.Behavioral.Interpreter.Run" target="GOF.Behavioral.Interpreter.IntToBinaryExpression">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Interpreter.Run" target="GOF.Behavioral.Interpreter.IntToHexExpression">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="152.0" y="108.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

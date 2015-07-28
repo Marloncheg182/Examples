@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>GOF.Structural.Decorator</OriginalElement>
+  <nodes>
+    <node x="-183.0" y="-30.0">GOF.Structural.Decorator.Run</node>
+    <node x="185.0" y="248.0">GOF.Structural.Decorator.InfraredScanner</node>
+    <node x="196.25" y="-55.0">GOF.Structural.Decorator.Rifle</node>
+    <node x="0.0" y="248.0">GOF.Structural.Decorator.HighZoom</node>
+    <node x="111.75" y="101.0">GOF.Structural.Decorator.SniperSight</node>
+    <node x="270.75" y="124.0">GOF.Structural.Decorator.AssaultRifle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GOF.Structural.Decorator.Run" target="GOF.Structural.Decorator.InfraredScanner">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Decorator.SniperSight" target="GOF.Structural.Decorator.Rifle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Decorator.Run" target="GOF.Structural.Decorator.HighZoom">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Decorator.InfraredScanner" target="GOF.Structural.Decorator.SniperSight">
+      <point x="0.0" y="-37.0" />
+      <point x="280.0" y="223.0" />
+      <point x="216.0" y="223.0" />
+      <point x="34.75" y="48.5" />
+    </edge>
+    <edge source="GOF.Structural.Decorator.Run" target="GOF.Structural.Decorator.SniperSight">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Decorator.AssaultRifle" target="GOF.Structural.Decorator.Rifle">
+      <point x="0.0" y="-25.5" />
+      <point x="334.25" y="76.0" />
+      <point x="289.5" y="76.0" />
+      <point x="31.75" y="25.5" />
+    </edge>
+    <edge source="GOF.Structural.Decorator.HighZoom" target="GOF.Structural.Decorator.SniperSight">
+      <point x="0.0" y="-37.0" />
+      <point x="82.5" y="223.0" />
+      <point x="146.5" y="223.0" />
+      <point x="-34.75" y="48.5" />
+    </edge>
+    <edge source="GOF.Structural.Decorator.Run" target="GOF.Structural.Decorator.AssaultRifle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="133.0" y="191.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

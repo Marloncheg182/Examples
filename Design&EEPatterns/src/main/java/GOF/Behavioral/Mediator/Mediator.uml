@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>GOF.Behavioral.Mediator</OriginalElement>
+  <nodes>
+    <node x="174.0" y="-15.0">GOF.Behavioral.Mediator.Messenger</node>
+    <node x="-268.0" y="139.0">GOF.Behavioral.Mediator.ExampleAccount</node>
+    <node x="-249.5" y="-52.0">GOF.Behavioral.Mediator.Account</node>
+    <node x="16.0" y="-148.0">GOF.Behavioral.Mediator.Run</node>
+    <node x="172.0" y="132.0">GOF.Behavioral.Mediator.MessengerImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GOF.Behavioral.Mediator.MessengerImpl" target="GOF.Behavioral.Mediator.Messenger">
+      <point x="0.0" y="-59.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="GOF.Behavioral.Mediator.Run" target="GOF.Behavioral.Mediator.ExampleAccount">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Mediator.MessengerImpl" target="GOF.Behavioral.Mediator.Account">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Mediator.Run" target="GOF.Behavioral.Mediator.MessengerImpl">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Mediator.ExampleAccount" target="GOF.Behavioral.Mediator.Account">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="GOF.Behavioral.Mediator.Account" target="GOF.Behavioral.Mediator.Messenger">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="106.0" y="110.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

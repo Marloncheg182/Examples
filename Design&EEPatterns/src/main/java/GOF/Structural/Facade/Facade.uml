@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>GOF.Structural.Facade</OriginalElement>
+  <nodes>
+    <node x="70.0" y="253.0">GOF.Structural.Facade.MTSConnector</node>
+    <node x="-22.75" y="75.0">GOF.Structural.Facade.ConnectorFacade.OperatorType</node>
+    <node x="-180.75" y="75.0">GOF.Structural.Facade.ConnectorFacade.CallType</node>
+    <node x="-219.0" y="249.0">GOF.Structural.Facade.KievStarConnector</node>
+    <node x="219.0" y="3.0">GOF.Structural.Facade.Run</node>
+    <node x="319.0" y="257.0">GOF.Structural.Facade.LifeConnector</node>
+    <node x="-184.0" y="-26.0">GOF.Structural.Facade.ConnectorFacade</node>
+    <node x="0.0" y="565.0">GOF.Structural.Facade.StationClasses</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GOF.Structural.Facade.ConnectorFacade" target="GOF.Structural.Facade.KievStarConnector">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Facade.ConnectorFacade" target="GOF.Structural.Facade.LifeConnector">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Facade.Run" target="GOF.Structural.Facade.LifeConnector">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Facade.Run" target="GOF.Structural.Facade.KievStarConnector">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Facade.ConnectorFacade.CallType" target="GOF.Structural.Facade.ConnectorFacade">
+      <point x="0.0" y="-47.5" />
+      <point x="-71.5" y="25.5" />
+    </edge>
+    <edge source="GOF.Structural.Facade.StationClasses" target="GOF.Structural.Facade.StationClasses">
+      <point x="0.0" y="0.0" />
+      <point x="77.0" y="540.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Facade.ConnectorFacade" target="GOF.Structural.Facade.MTSConnector">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Facade.Run" target="GOF.Structural.Facade.MTSConnector">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Structural.Facade.ConnectorFacade.OperatorType" target="GOF.Structural.Facade.ConnectorFacade">
+      <point x="0.0" y="-47.5" />
+      <point x="71.5" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="141.0" y="266.0" />
+  <SelectedNodes>
+    <node>GOF.Structural.Facade.Run</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>GOF.Behavioral.Memento</OriginalElement>
+  <nodes>
+    <node x="-167.0" y="-100.0">GOF.Behavioral.Memento.FileWriterUtil</node>
+    <node x="-50.0" y="139.0">GOF.Behavioral.Memento.FileWriterUtil.Memento</node>
+    <node x="199.0" y="-98.0">GOF.Behavioral.Memento.Temporary</node>
+    <node x="215.0" y="125.0">GOF.Behavioral.Memento.FileWriterClient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GOF.Behavioral.Memento.FileWriterClient" target="GOF.Behavioral.Memento.FileWriterUtil">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Memento.FileWriterClient" target="GOF.Behavioral.Memento.Temporary">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Memento.FileWriterUtil.Memento" target="GOF.Behavioral.Memento.FileWriterUtil">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="GOF.Behavioral.Memento.FileWriterUtil" target="GOF.Behavioral.Memento.FileWriterUtil.Memento">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="57.0" y="68.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

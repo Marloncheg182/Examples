@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>GOF.Behavioral.Command</OriginalElement>
+  <nodes>
+    <node x="286.25" y="627.0">GOF.Behavioral.Command.FileSystemReceiver</node>
+    <node x="380.0" y="772.0">GOF.Behavioral.Command.WindowsFileSystemReceiver</node>
+    <node x="312.0" y="285.0">GOF.Behavioral.Command.Command</node>
+    <node x="257.0" y="386.0">GOF.Behavioral.Command.OpenFileCommand</node>
+    <node x="525.0" y="607.0">GOF.Behavioral.Command.FileSystemReceiverUtil</node>
+    <node x="436.0" y="122.0">GOF.Behavioral.Command.Run</node>
+    <node x="188.0" y="772.0">GOF.Behavioral.Command.UnixFileSystemReceiver</node>
+    <node x="514.0" y="386.0">GOF.Behavioral.Command.CloseFileCommand</node>
+    <node x="-16.0" y="205.0">GOF.Behavioral.Command.FileExecutor</node>
+    <node x="0.0" y="386.0">GOF.Behavioral.Command.WriteFileCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GOF.Behavioral.Command.Run" target="GOF.Behavioral.Command.OpenFileCommand">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Command.WriteFileCommand" target="GOF.Behavioral.Command.FileSystemReceiver">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Command.WindowsFileSystemReceiver" target="GOF.Behavioral.Command.FileSystemReceiver">
+      <point x="0.0" y="-47.5" />
+      <point x="470.5" y="747.0" />
+      <point x="415.25" y="747.0" />
+      <point x="43.0" y="47.5" />
+    </edge>
+    <edge source="GOF.Behavioral.Command.FileSystemReceiverUtil" target="GOF.Behavioral.Command.UnixFileSystemReceiver">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Command.Run" target="GOF.Behavioral.Command.WriteFileCommand">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Command.FileSystemReceiverUtil" target="GOF.Behavioral.Command.WindowsFileSystemReceiver">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Command.WriteFileCommand" target="GOF.Behavioral.Command.Command">
+      <point x="0.0" y="-48.5" />
+      <point x="118.5" y="361.0" />
+      <point x="333.1666666666667" y="361.0" />
+      <point x="-42.333333333333314" y="25.5" />
+    </edge>
+    <edge source="GOF.Behavioral.Command.OpenFileCommand" target="GOF.Behavioral.Command.Command">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="GOF.Behavioral.Command.Run" target="GOF.Behavioral.Command.FileExecutor">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Command.OpenFileCommand" target="GOF.Behavioral.Command.FileSystemReceiver">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Command.FileExecutor" target="GOF.Behavioral.Command.Command">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Command.CloseFileCommand" target="GOF.Behavioral.Command.Command">
+      <point x="0.0" y="-48.5" />
+      <point x="632.5" y="361.0" />
+      <point x="417.83333333333337" y="361.0" />
+      <point x="42.33333333333337" y="25.5" />
+    </edge>
+    <edge source="GOF.Behavioral.Command.CloseFileCommand" target="GOF.Behavioral.Command.FileSystemReceiver">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GOF.Behavioral.Command.UnixFileSystemReceiver" target="GOF.Behavioral.Command.FileSystemReceiver">
+      <point x="0.0" y="-47.5" />
+      <point x="274.0" y="747.0" />
+      <point x="329.25" y="747.0" />
+      <point x="-43.0" y="47.5" />
+    </edge>
+    <edge source="GOF.Behavioral.Command.Run" target="GOF.Behavioral.Command.CloseFileCommand">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="362.0" y="564.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
