@@ -1,0 +1,4 @@
+rest\config\WebAppConfig.class
+rest\domain\MyDataObject.class
+rest\config\Initializer.class
+rest\controller\MainController.class

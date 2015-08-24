@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><pesons>
+    <person id="2">
+        
+        <lastname>romanenchuk</lastname>
+        <age>29</age>
+    </person>
+    <person id="2">
+        <firstname>vitalik</firstname>
+        <lastname>romanenchuk</lastname>
+        <age>31</age>
+    </person>
+<zodiac>twins</zodiac></pesons>
