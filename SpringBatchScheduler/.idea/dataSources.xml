@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="836374589">
+    <data-source source="LOCAL" name="HSQLDB - examples" uuid="536be8a8-ef38-4887-9c2d-b5a6e3fe1468">
+      <driver-ref>hsqldb.in-memory</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:mem:examples</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>

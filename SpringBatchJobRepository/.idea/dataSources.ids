@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="HSQLDB - examples" uuid="b79c1212-2d0c-49ba-a90f-b167b54fb9d8">
+    <database-info product="HSQL Database Engine" version="2.3.2" jdbc-version="4.0" driver-name="HSQL Database Engine Driver" driver-version="2.3.2">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <schema name="PUBLIC" catalog="PUBLIC"/>
+    <table name="PERSON" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="FIRSTNAME" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <column name="LASTNAME" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <column name="SCHOOL" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <column name="ROLLNUMBER" sqlType="INTEGER" precision="32" scale="0" nullable="true" jdbcType="4"/>
+    </table>
+  </data-source>
+</component>

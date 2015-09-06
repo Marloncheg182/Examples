@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AspectJUsingXMLConfiguration/AspectJUsingXMLConfiguration.iml" filepath="$PROJECT_DIR$/AspectJUsingXMLConfiguration/AspectJUsingXMLConfiguration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringAspectJ.iml" filepath="$PROJECT_DIR$/SpringAspectJ.iml" />
+    </modules>
+  </component>
+</project>

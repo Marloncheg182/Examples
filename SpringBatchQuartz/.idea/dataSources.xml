@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1812177159">
+    <data-source source="LOCAL" name="HSQLDB - quartzexample" uuid="5ce20768-27f4-4d15-b314-c4d71b057edb">
+      <driver-ref>hsqldb.in-memory</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:mem:quartzexample</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>

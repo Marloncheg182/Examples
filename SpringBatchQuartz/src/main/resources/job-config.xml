@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:batch="http://www.springframework.org/schema/batch"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/batch
+        http://www.springframework.org/schema/batch/spring-batch.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/jdbc
+        http://www.springframework.org/schema/jdbc/spring-jdbc.xsd">
+    <job id="myJob" xmlns="http://www.springframework.org/schema/batch" restartable="true">
+    <batch:jobstep id="step1" allow-start-if-complete="true">
+            <tasklet ref="myTasklet">
+                    
+            </tasklet>
+</batch:jobstep>
+        <bean id="myTasklet" class="examples.util.MyTasklet">
+                <property name="dataSource" ref="dataSource"></property>
+        </bean>
+        <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+                <property name="triggers">
+                        <bean id="cronTrigger"
+                              class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+                                <property name="jobDetail"ref="jobDetail"/>
+                                <property name="cronExpression" value="*/10****?"/>
+                        </bean>
+                </property>
+        </bean>
+        <bean id="jobDetail"class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+                <property name="jobClass" value="examples.util.MyTaskScheduler">
+                        </property>
+                <property name="jobDataAsMap">
+                        <map>
+                                <entry key="jobName" value="myJob"></entry>
+                                <entry key="jobLauncher" value-ref="jobLauncher"></entry>
+                                <entry key="jobLocator" value-ref="jobRegistry"></entry>
+                        </map>
+                </property>
+        </bean>
+
+        <bean id="jobLauncher"
+                class="org.springframework.batch.core.configuration.support.JobRegistryBeanPostProcessor">
+                <property name="jobRegistry" ref="jobRegistry"/>
+        </bean>
+        <bean id="jobRegistry" class="org.springframework.batch.core.configuration.support.MapJobRegistry"/>
+        <jdbc:embedded-database id="dataSource"/>
+</beans>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="HSQLDB - quartzexample" uuid="5ce20768-27f4-4d15-b314-c4d71b057edb">
+      <secret-storage>master_key</secret-storage>
+      <schema-pattern>PUBLIC.PUBLIC</schema-pattern>
+      <default-schemas>PUBLIC.PUBLIC</default-schemas>
+    </data-source>
+  </component>
+</project>
