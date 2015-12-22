@@ -51,6 +51,7 @@ public class FolderProcessor extends RecursiveTask<List<String>> {
         addResultsFromTasks(list,tasks);
         return list;
     }
+
     private void addResultsFromTasks(List<String>list, List<FolderProcessor>tasks)
     {
         for (FolderProcessor item : tasks) {

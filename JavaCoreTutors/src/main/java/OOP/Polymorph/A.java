@@ -7,6 +7,8 @@ public class A implements Polymorphic {
     private String field1 = "1";
     private String field2 = "2";
 
+    public C c;
+
     public A(String number1, String number2) {
         this.field1 = number1;
         this.field2 = number2;

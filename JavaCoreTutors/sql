@@ -1,0 +1,24 @@
+
+CREATE TABLE user (
+  user_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+  user_name VARCHAR(255)
+);
+
+
+
+CREATE TABLE account (
+  account_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+  account_number VARCHAR(255),
+  balance DOUBLE,
+  user_id INT ,
+  FOREIGN KEY (user_id) REFERENCES user(user_id)
+);
+
+INSERT INTO user (user_name) VALUES
+  ('Oleg'),('Denis');
+
+INSERT INTO account (account_id, account_number, balance, user_id) VALUES (1, '2541', 100.12, 1);
+INSERT INTO account (account_id, account_number, balance, user_id) VALUES (2, '2542', 2.3, 1);
+INSERT INTO account(account_id, account_number, balance, user_id)  VALUES (3, '2563', 54.1, 2);
+
+SELECT * FROM account JOIN user USING (user_id)

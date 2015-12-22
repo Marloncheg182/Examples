@@ -23,6 +23,7 @@ public class CallableStatementInParameterExample {
         }
     }
 
+
     private static void call()throws SQLException{
         Connection connection = null;
         CallableStatement callableStatement = null;

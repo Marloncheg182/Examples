@@ -8,4 +8,5 @@ public interface ClassicInterface {
     public String doFirstAction(String string, String string2);
 
     public String doSecondAction(String string);
+
 }

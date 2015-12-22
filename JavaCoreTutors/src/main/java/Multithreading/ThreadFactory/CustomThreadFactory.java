@@ -14,10 +14,10 @@ public class CustomThreadFactory implements ThreadFactory {
     public CustomThreadFactory(String name) {
         counter = 1;
         this.name = name;
-        stats = new ArrayList<>();
+        stats = new ArrayList<String>();
     }
 
-    @Override
+
     public Thread newThread(Runnable r) {
         Thread t = new Thread(r, name + "-Thread_" + counter);
         counter++;

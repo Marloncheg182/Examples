@@ -3,7 +3,7 @@ package OOP.Incapsulation;
 /**
  * Created by Oleg Romanenchuk on 8/6/2015.
  */
-public final class Incapsulate {
+public class Incapsulate {
     private String field1 = "1";
     private int field2 = 20;
     private long field3 = 30L;
